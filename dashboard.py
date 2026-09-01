@@ -361,7 +361,11 @@ def submit_crowdsource(n_clicks, lat, lon, train_number):
     })
     return "Thanks \u2014 position recorded."
 
+<<<<<<< HEAD
 
+=======
+server = app.server
+>>>>>>> 9fb5063 (Fix Render deployment)
 if __name__ == "__main__":
     storage.init_db()
     app.run(debug=True)
