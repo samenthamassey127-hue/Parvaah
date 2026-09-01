@@ -1,0 +1,23 @@
+# Runtime data — logged rows, trained models, results — should not be committed.
+# This is real measured data or reproducible-from-code artifacts, not source.
+data/
+*.sqlite
+*.sqlite3
+*.joblib
+results_history.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Never commit API keys
+.env
+.env.*
+
+# OS/editor cruft
+.DS_Store
+.ipynb_checkpoints/
