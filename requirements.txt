@@ -10,7 +10,5 @@ apscheduler
 # mapie is optional — correction_model.py falls back to a manual split-conformal
 # implementation (same math) if mapie isn't installed. Uncomment to prefer it:
 # mapie
-<<<<<<< HEAD
-=======
 gunicorn
->>>>>>> 9fb5063 (Fix Render deployment)
+
